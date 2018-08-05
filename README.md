@@ -4,8 +4,8 @@ Very simple raytracer with OpenGL 3 interactive preview made as university proje
 
 ![cat.png](./results/cat.png)
 ![spheres2.png](./results/spheres2.png)
-![chest2.png](./results/chest2.png)
-Object view:
+![chest2.png](./results/chest2.png)    
+Object view:   
 ![object_view.png](./readme_imgs/objectview.png)
 # Movement
 
