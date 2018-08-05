@@ -1,0 +1,66 @@
+{
+	"camera": {
+		"ViewPoint": [0,0,3],
+		"Forward": [0,0,1],
+		"Up": [0,1,0],
+		"fov": 90.0
+	},
+	"recursion": 3,
+	"output": {"size": [700, 700], "ss": 1},
+	"scene": [
+#		{
+#			"type": "SPHERE",
+#			"pos": [0.5,0.7,-3],
+#			"radius": 0.3,
+#			"color": [0.65, 0.15, 0.0, 1.0]
+#		},
+		{
+			"type": "SPHERE",
+			"name": "test sphere",
+			"pos": [-0.4,0.5,-2.5],
+			"radius": 0.2,
+			"color": [0.25,0.15,0.65, 1.0]
+		},
+		{
+			"type": "POINT_LIGHT",
+			"pos": [0.2, 0.2, -0.4],
+			"radius": 0.1,
+			"color": [0.8, 0.8, 0.8, 1.0]
+		},
+#		{
+#			"type": "TRIANGLE",
+#			"pos": [-1, -1, -4],
+#			"a": [0, 	0, 	0],
+#			"b": [0.5,0,	0],
+#			"c": [0.5,0.5,0],
+#			"color": [0.2, 0.8, 0.2, 1.0]
+#		},
+		{
+			"type": "MESH",
+			"pathDiffuse": 	"./assets/chest.png",
+			"path":					"./assets/chest.obj",
+			"color": [1.0, 1.0, 1.0, 1.0],
+			"pos": [0, 0.0, -3.5],
+			"rot": [0,1.65,0],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		{
+      "type": "MESH",
+      "pathDiffuse":  "./assets/chest.png",
+      "path":         "./assets/chest.obj",
+      "color": [1.0, 1.0, 1.0, 1.0],
+      "pos": [-2.0, 0.0, -3.5],
+			"rot": [0,1.65,0],
+      "scale": [0.1, 0.1, 0.1]
+    },
+		{
+      "type": "MESH",
+      "pathDiffuse":  "./assets/chest.png",
+      "path":         "./assets/chest.obj",
+      "color": [1.0, 1.0, 1.0, 1.0],
+			"rot": [0.0, 1.65, 0],
+      "pos": [2.0, 0.0, -3.5],
+      "scale": [0.1, 0.1, 0.1]
+    }
+	]
+}

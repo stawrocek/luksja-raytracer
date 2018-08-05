@@ -1,0 +1,40 @@
+{
+	"camera": {
+		"ViewPoint": [0,0,0],
+		"Forward": [0,0,1],
+		"Up": [0,1,0],
+		"fov": 90.0
+	},
+	"recursion": 6,
+	"output": {"size": [700, 700], "ss": 1},
+	"scene": [
+		{
+			"type": "SPHERE",
+			"pos": [0.5,0.7,-3],
+			"radius": 0.3,
+			"color": [0.75, 0.15, 0.0, 1.0]
+		},
+		{
+			"type": "SPHERE",
+			"name": "test sphere",
+			"pos": [0.0,0.5,-2.5],
+			"radius": 0.2,
+			"color": [0.25,0.15,0.65, 1.0]
+		},
+		{
+      "type": "SPHERE",
+      "name": "test sphere",
+      "pos": [-0.5,0.5,-3.5],
+      "radius": 0.4,
+      "color": [0.25,0.25,0.75, 1.0]
+    },
+
+
+		{
+			"type": "POINT_LIGHT",
+			"pos": [-0.5, 2.0, -2.0],
+			"radius": 0.1,
+			"color": [0.8, 0.8, 0.8, 1.0]
+		}
+	]
+}
